@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="/predict" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <fieldset class="form-group">
+                <legend>{{ title }}</legend>
+                {{ form.hidden_tag() }}
+            
+                <p>
+                    {{ form.year.label }}<br>
+                    {{ form.year(class_='form-control') }}
+                    {% for error in form.year.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+            
+                <p>
+                    {{ form.transmission.label }}<br>
+                    {{ form.transmission(class_='form-control') }}
+                    {% for error in form.transmission.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+            
+                <p>
+                    {{ form.mileage.label }}<br>
+                    {{ form.mileage(class_='form-control') }}
+                    {% for error in form.mileage.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+            
+                <p>
+                    {{ form.fuelType.label }}<br>
+                    {{ form.fuelType(class_='form-control') }}
+                    {% for error in form.fuelType.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+            
+                <p>
+                    {{ form.tax.label }}<br>
+                    {{ form.tax(class_='form-control') }}
+                    {% for error in form.tax.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+                <p>
+                    {{ form.mpg.label }}<br>
+                    {{ form.mpg(class_='form-control') }}
+                    {% for error in form.mpg.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+            
+                <p>
+                    {{ form.engineSize.label }}<br>
+                    {{ form.engineSize(class_='form-control') }}
+                    {% for error in form.engineSize.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+            
+                <p>
+                    {{ form.brand.label }}<br>
+                    {{ form.brand(class_='form-control') }}
+                    {% for error in form.brand.errors %}
+                        <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </p>
+            </fieldset>
+        </div>
+
+        <div class="col-md-6">
+            <div class="btn-container text-center">
+                <div class="row">
+                    <div class="col-12 my-1">
+                        {{ form.submit(class_='btn btn-success btn-lg btn-block') }}
+                    </div>
+                    <hr class="my-1">
+                    <div class="col-12">
+                        <div class="card p-3 mx-5">
+                            <p>The price of a car with your specification will be around... 
+                                <h3>&#163; {{predictedVal}}</h3>
+                            </p>
+                        </form>
+                            <h5 class="mt-1 ml-2 card-title text-start">  Here are our recommendations: </h5>
+                            {% for car in cars %}
+                                <div class="col-md-12 m-1 mx-auto">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-start d-flex justify-content-between align-items-center">
+                                                {{ car.brand }} {{ car.model }}
+                                                <form action="{{ url_for('add_to_wishlist_pred_route', car_id=car.id) }}" method="post">
+                                                    <button type="submit" class="btn btn-primary btn-sm">Add to Wishlist</button>
+                                                </form>
+                                            </h5>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <p class="card-text text-start">{{ car.year }} years old</p>
+                                                    <p class="card-text text-start">{{ car.mpg }} MPG</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p class="card-text text-start">{{ car.mileage }} km Mileage</p>
+                                                    <p class="card-text text-start">&#163;{{ car.price }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<div class="mb-5"></div>
+    
+{% endblock content %}

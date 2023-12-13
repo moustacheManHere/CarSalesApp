@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="/showcase" method="post">
+<hr>
+<h5 class="text-center">Our Cars Collection</h5>
+<hr>
+<fieldset class="form-group">
+    <div class="row">
+    {{ form.hidden_tag() }}
+
+        <p class="col-md-4 mb-3">
+            {{ form.searchText.label }}<br>
+            {{ form.searchText(class_='form-control') }}
+            {% for error in form.searchText.errors %}
+                <span class="error-message">{{ error }}</span>
+            {% endfor %}
+        </p>
+
+        <p class="col-md-2 mb-3">
+            {{ form.brand.label }}<br>
+            {{ form.brand(class_='form-control') }}
+            {% for error in form.brand.errors %}
+                <span class="error-message">{{ error }}</span>
+            {% endfor %}
+        </p>
+
+        <p class="col-md-2 mb-3">
+            {{ form.fuelType.label }}<br>
+            {{ form.fuelType(class_='form-control') }}
+            {% for error in form.fuelType.errors %}
+                <span class="error-message">{{ error }}</span>
+            {% endfor %}
+        </p>
+
+        <p class="col-md-1 mb-3">
+            {{ form.tax.label }}<br>
+            {{ form.tax(class_='form-control') }}
+            {% for error in form.tax.errors %}
+                <span class="error-message">{{ error }}</span>
+            {% endfor %}
+        </p>
+
+        <p class="col-md-1 mb-3">
+            {{ form.minNumericInput.label }}<br>
+            {{ form.minNumericInput(class_='form-control') }}
+            {% for error in form.minNumericInput.errors %}
+                <span class="error-message">{{ error }}</span>
+            {% endfor %}
+        </p>
+
+        <p class="col-md-1 mb-3">
+            {{ form.maxNumericInput.label }}<br>
+            {{ form.maxNumericInput(class_='form-control') }}
+            {% for error in form.maxNumericInput.errors %}
+                <span class="error-message">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p class="col-md-1 mt-4">
+            {{ form.submit(class_='btn btn-success btn-block') }}
+        </p>
+        
+    </div>
+</fieldset>
+</form>
+<hr>
+<h5>Results</h5>
+<hr>
+<div class="container">
+    <div class="row">
+        {% for car in cars %}
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-start d-flex justify-content-between align-items-center">
+                            {{ car.brand }} {{ car.model }}
+                            <form action="{{ url_for('add_to_wishlist_route', car_id=car.id) }}" method="post">
+                                <button type="submit" class="btn btn-primary btn-sm">Add to Wishlist</button>
+                            </form>
+                        </h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="card-text text-start">{{ car.year }} years old</p>
+                                <p class="card-text text-start">{{ car.mpg }} MPG</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text text-start">{{ car.mileage }} km Mileage</p>
+                                <p class="card-text text-start">&#163;{{ car.price }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% if loop.index % 3 == 0 %}
+                </div><div class="row">
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<div class="pagination mb-5">
+    <span class="badge badge-secondary">Page {{ cars.page }} of {{ cars.pages }}</span>
+    {% if cars.has_prev %}
+        <a class="btn btn-primary" href="{{ url_for('showcase', page=cars.prev_num) }}">Previous</a>
+        <span class="mx-5"></span>
+    {% endif %}
+    {% if cars.has_next %}
+        <a class="btn btn-primary" href="{{ url_for('showcase', page=cars.next_num) }}">Next</a>
+    {% endif %}
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,99 @@
+*   bc933bd (tag: v3.0, origin/releases, releases) Merge branch 'main' into releases
+|\  
+| * 0f5b7d4 (HEAD -> main, origin/main, origin/HEAD) editted .gitlab-ci.yml file
+| * b223c77 Updated .gitlab-ci.yml file
+| * 598207f (origin/deployment, deployment) renamed it lol
+| * 5efa4fe added cicd
+| * 3ffdc76 (origin/tests, tests) finished range testing
+| * ad24eb7 done api tests
+| * f67a988 add user working and fixed bugs
+| * d1444e6 finished consistency testing
+| * 310f994 expected and unexpected works
+| * 3164f3a removed redundant
+| * d95acc7 database testing works
+* | 4046e83 (tag: v2.0) Merge branch 'main' into releases
+|\| 
+| * c964459 refactored code and formatted
+| *   549b2f7 Merge branch 'backend'
+| |\  
+| | * 9123acd (origin/backend, backend) reccommend cars working
+| | * 5907fa3 added wishlist features
+| | * 775b02a history removal works
+| | * f4e8a7f history works
+| | * 51429b8 done with wishlist
+| | * 444d1fc finished profile and update
+| | * 4eb926c preloading cars done
+| * | 337b0ec (origin/regressionML, regressionML) updated notebook with cos similiarity
+| |/  
+| *   a0283ab Merge branch 'deployment'
+| |\  
+| | * 4a04d0d gunicorn server works
+| * | 6f76f43 decide tests and created apis
+| * | 3ecb8b6 slight refactoring
+| * | 27fcae1 refactored code for testing
+| * | 1c1c765 Merge branch 'main' into tests
+| |\| 
+| | * 1d01f93 (origin/userauth, userauth) working auth and history save
+| | *   0e53537 Merge branch 'database'
+| | |\  
+| | | * c7a90e6 (origin/database, database) added database tables
+| | * | a20b73c (origin/front-end, front-end) added showcase
+| | * | bd658d2 added wishlist
+| | * | a51a286 added history page
+| | * | d8bfa32 formatted prediction page
+| | * | 2accffd added homepage
+| | * | 307ce59 added nav and footer
+| | |/  
+| * / 65c7a1e init tests
+| |/  
+* / 25e0f61 (tag: v1.0) Added Readme
+|/  
+* ff2ea0d fixed issues with model and integrated
+*   9c0aeff Merge branch 'regressionML' into 'main'
+|\  
+| *   df9d7c9 Merge branch 'main' into 'regressionML'
+| |\  
+| |/  
+|/|   
+* |   2b52804 Merge branch 'wireframes' into 'main'
+|\ \  
+| * | 75fc283 added sign up
+| * | b4785f3 added login
+| * | aac5a6f Added signup.drawio
+| * | 028e8b5 Added login.drawio
+| * | edcb43e added showcase
+| * | 37ff818 added showcase file
+| * | 21247b0 added wishlist
+| * | 45c3e0d added remove column
+| * | 733e0f2 created wishlist.drawio
+| * | b4ff7a2 Update history nav and table
+| * | d41fdde added history tab
+| * | f90c202 added history tab
+| * | 42cf3d7 added history tab
+| * | 4723629 Update predict page with new data
+| * | 56027cd Updated profile added footer
+| * | 24c21f4 Update homepage for new data
+|/ /  
+* |   1d96c15 Merge branch 'simpleUI' into 'main'
+|\ \  
+| * | 8a22846 (origin/simpleUI, simpleUI) Finished creating base UI with prediction
+|/ /  
+* |   854ed2d Merge branch 'regressionML' into 'main'
+|\ \  
+* \ \   9d3d037 Merge branch 'front_end' into 'main'
+|\ \ \  
+| * | | 204cd8a Front end wireframes done
+|/ / /  
+| | * 98d5606 Finished new regression model
+| |/  
+| * a7f65c9 refactored to use pipeline
+| * d59b113 finished modeling but low r2
+| * b964033 finished eda
+|/  
+| * 32682e0 (origin/front_end, front_end) removed predict.drawio
+| * 20fa686 Added predict.drawio
+| * 51162b4 Updated homepage.drawio
+| * b315296 Added homepage.drawio
+| * ee58b91 Added folder to store wireframes for web application
+|/  
+* 7e7bb32 Initial commit

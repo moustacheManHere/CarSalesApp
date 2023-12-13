@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" modified="2023-11-29T02:57:18.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qa4PVG7b887nax59wq6b" version="22.1.4" type="gitlab">
+  <diagram name="Page-1" id="03018318-947c-dd8e-b7a3-06fadd420f32">
+    <mxGraphModel dx="1674" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="677b7b8949515195-1" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="1060" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="677b7b8949515195-2" value="Giggles Gears" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="677b7b8949515195-8" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="180" width="540" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="677b7b8949515195-9" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="140" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="677b7b8949515195-27" value="Please enter your desired car specifications..." style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="677b7b8949515195-28" value="What brand are you looking for?" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+          <mxGeometry x="80" y="260" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="677b7b8949515195-30" value="Do you want a tax-free car?" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+          <mxGeometry x="80" y="660" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="677b7b8949515195-39" value="How old can the car be?&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+          <mxGeometry x="80" y="590" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VXKp7BFKCe05ySpjljUm-1" value="2017" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=17;fontColor=#666666;mainText=;html=1;overflow=fill;" parent="1" vertex="1">
+          <mxGeometry x="340" y="590" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="VXKp7BFKCe05ySpjljUm-63" value="The price of a car with your specification will be around....&amp;nbsp;&lt;font style=&quot;font-size: 24px;&quot;&gt;£80000&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#CC6600;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="650" y="280" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VXKp7BFKCe05ySpjljUm-64" value="Predict!" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#009900;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="650" y="180" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-6" value="Footer" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="780" width="1050" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-7" value="Our Recommendations:&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#000000;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="650" y="403.75" width="320" height="346.25" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Audi A1&lt;br&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;5 Years Old&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;£76000&lt;/font&gt;&lt;/blockquote&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#007FFF;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="675" y="470.62" width="270" height="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ford Fiesta&lt;br&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;2 Years Old&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;£82000&lt;/font&gt;&lt;/blockquote&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#007FFF;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="675" y="558.75" width="270" height="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Toyota GT86&lt;br&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;7 Years Old&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;£72000&lt;/font&gt;&lt;/blockquote&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#007FFF;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="675" y="650" width="270" height="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-11" value="Do you want auto transmission?" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-12" value="Honda" style="rounded=1;fillColor=#F1F2F4;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#596780;align=left;fontSize=12;spacingLeft=10;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="253.5" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-13" value="" style="shape=triangle;direction=south;fillColor=#596780;strokeColor=none;html=1;sketch=0;" parent="nnubQlt5GwVbMYinX_ni-12" vertex="1">
+          <mxGeometry x="1" y="0.5" width="12" height="6" relative="1" as="geometry">
+            <mxPoint x="-20" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-14" value="What kind of fuel would you like?" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+          <mxGeometry x="80" y="310" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-15" value="Petrol" style="rounded=1;fillColor=#F1F2F4;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#596780;align=left;fontSize=12;spacingLeft=10;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="303.5" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-16" value="" style="shape=triangle;direction=south;fillColor=#596780;strokeColor=none;html=1;sketch=0;" parent="nnubQlt5GwVbMYinX_ni-15" vertex="1">
+          <mxGeometry x="1" y="0.5" width="12" height="6" relative="1" as="geometry">
+            <mxPoint x="-20" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-18" value="Yes" style="rounded=1;fillColor=#F1F2F4;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#596780;align=left;fontSize=12;spacingLeft=10;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="353.5" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-19" value="" style="shape=triangle;direction=south;fillColor=#596780;strokeColor=none;html=1;sketch=0;" parent="nnubQlt5GwVbMYinX_ni-18" vertex="1">
+          <mxGeometry x="1" y="0.5" width="12" height="6" relative="1" as="geometry">
+            <mxPoint x="-20" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-21" value="How much mileage do you want?" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rangeInput;dx=0.78;strokeColor=#9D968E;fillColor=#E3DDD8;fontColor=#777777;whiteSpace=wrap;align=left;verticalAlign=bottom;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=top;gradientColor=#F4F2EF;gradientDirection=north;rangeStyle=rect;handleStyle=rect;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-22" value="What size of engine do you want?" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rangeInput;dx=0.78;strokeColor=#9D968E;fillColor=#E3DDD8;fontColor=#777777;whiteSpace=wrap;align=left;verticalAlign=bottom;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=top;gradientColor=#F4F2EF;gradientDirection=north;rangeStyle=rect;handleStyle=rect;" parent="1" vertex="1">
+          <mxGeometry x="80" y="491.24" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-25" value="What miles per gallon are you looking for?" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rangeInput;dx=0.78;strokeColor=#9D968E;fillColor=#E3DDD8;fontColor=#777777;whiteSpace=wrap;align=left;verticalAlign=bottom;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=top;gradientColor=#F4F2EF;gradientDirection=north;rangeStyle=rect;handleStyle=rect;" parent="1" vertex="1">
+          <mxGeometry x="80" y="550" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-26" value="No" style="rounded=1;fillColor=#F1F2F4;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#596780;align=left;fontSize=12;spacingLeft=10;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="647" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="nnubQlt5GwVbMYinX_ni-27" value="" style="shape=triangle;direction=south;fillColor=#596780;strokeColor=none;html=1;sketch=0;" parent="nnubQlt5GwVbMYinX_ni-26" vertex="1">
+          <mxGeometry x="1" y="0.5" width="12" height="6" relative="1" as="geometry">
+            <mxPoint x="-20" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLMwnmLxw3GLfYYk1css-1" value="Home" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="570" y="75" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLMwnmLxw3GLfYYk1css-2" value="SmartSearch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="720" y="75" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLMwnmLxw3GLfYYk1css-3" value="Wishlist" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="910" y="75" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLMwnmLxw3GLfYYk1css-4" value="Profile" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="990" y="75" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLMwnmLxw3GLfYYk1css-5" value="Catalogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="630" y="75" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLMwnmLxw3GLfYYk1css-6" value="History" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="830" y="75" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
